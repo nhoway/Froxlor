@@ -495,10 +495,10 @@ $lng['changepassword']['also_change_webalizer'] = 'Changer aussi le mot de passe
 
 // ADDED IN 1.2.16-svn8
 
-$lng['serversettings']['mailpwcleartext']['title'] = 'Sauvegarder aussi les mots de passe des comptes e-mails de façon décrypter dans la base de données';
-$lng['serversettings']['mailpwcleartext']['description'] = 'Si cela est à Oui, tous les mots de passe seront aussi sauvegarder de façon décrypter dans la table mail_users (en texte clair pour toutes personnes qui auraient accès à la base de données). Activer cette option, uniquement si vous en avez vraiment besoin !';
+$lng['serversettings']['mailpwcleartext']['title'] = 'Sauvegarder aussi les mots de passe décryptés des comptes e-mails dans la base de données';
+$lng['serversettings']['mailpwcleartext']['description'] = 'Si cela est à Oui, tous les mots de passe seront aussi sauvegardés de façon décryptée dans la table mail_users (en texte clair pour toutes personnes qui auraient accès à la base de données). Activez cette option uniquement si vous en avez vraiment besoin !';
 $lng['serversettings']['mailpwcleartext']['removelink'] = 'Cliquez ici pour retirer tous les mots de passe en texte clair de la base de données.';
-$lng['question']['admin_cleartextmailpws_reallywipe'] = 'Etes-vous sûr de vouloir retirer tous les mots de passe en clairs des comptes e-mails de la table mail_users ? Cette action ne peut être annulée !';
+$lng['question']['admin_cleartextmailpws_reallywipe'] = 'Etes-vous sûr de vouloir retirer tous les mots de passe en clair des comptes e-mails de la table mail_users ? Cette action ne peut être annulée !';
 $lng['admin']['configfiles']['overview'] = 'Aperçu';
 $lng['admin']['configfiles']['wizard'] = 'Assistant';
 $lng['admin']['configfiles']['distribution'] = 'Distribution';
@@ -525,9 +525,9 @@ $lng['panel']['back'] = 'Retour';
 $lng['serversettings']['mod_fcgid']['title'] = 'Utiliser PHP par mod_fcgid / suexec';
 $lng['serversettings']['mod_fcgid']['description'] = 'Utiliser mod_fcgid / suexec / libnss_mysql pour lancer PHP avec le compte correspondant à l\'utilisateur ?<br/><b>Cela à besoin d\'une configuration spécifique d\'Apache !</b>';
 $lng['serversettings']['sendalternativemail']['title'] = 'Utiliser une adresse e-mail alternative';
-$lng['serversettings']['sendalternativemail']['description'] = 'Envoyer le mot de passe du compte e-mail à une adresse différents pour la création du compte e-mail ?';
+$lng['serversettings']['sendalternativemail']['description'] = 'Envoyer le mot de passe du compte e-mail à une adresse différente pour la création du compte e-mail ?';
 $lng['emails']['alternative_emailaddress'] = 'Adresse e-mail alternative';
-$lng['mails']['pop_success_alternative']['mailbody'] = 'Bonjour,\n\nVotre compte e-mail {EMAIL} a été correctement créé.\n\nVotre mot de passe est : {PASSWORD}.\n\nCeci est un message généré automatiquemenent, veuillez ne pas répondre à cet e-mail car il ne serait être consulter.\n\nCordialement,\nL\'équipe Froxlor.';
+$lng['mails']['pop_success_alternative']['mailbody'] = 'Bonjour,\n\nVotre compte e-mail {EMAIL} a été correctement créé.\n\nVotre mot de passe est : {PASSWORD}.\n\nCeci est un message généré automatiquemenent, veuillez ne pas répondre à cet e-mail car il ne serait être consulté.\n\nCordialement,\nL\'équipe Froxlor.';
 $lng['mails']['pop_success_alternative']['subject'] = 'Compte e-mail correctement créé';
 $lng['admin']['templates']['pop_success_alternative'] = 'Message de bienvenue envoyé à l\'adresse e-mail alternative pour les nouveaux comptes e-mails';
 $lng['admin']['templates']['EMAIL_PASSWORD'] = 'Remplacer par le mot de passe du compte POP3 / IMAP.';
